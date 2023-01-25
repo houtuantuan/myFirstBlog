@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Unbounded:wght@500&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    border=0;
+
+}
+
+header {
+    background-image: url(https://artthat.net/wp-content/uploads/2020/12/Henri-Rousseau-La-Seine-a%CC%80-Suresnes-web.jpeg);
+    background-size: cover;
+    height: 28vh;
+    background-repeat: no-repeat;
+
+}
+
+nav ul li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+section nav ul {
+    justify-content: space-around;
+    display: flex;
+    background-color: rgba(0, 76, 138, 0.575);
+    margin: 0;
+    padding: 0;
+    height: 4em;
+    align-items: center;
+
+}
+
+
+
+.info {
+    margin-top: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30em;
+    margin-bottom: 2em;
+    background-image: url(https://www.henrirousseau.org/thumbnail/70000/70942/mini_normal/Self-Portrait-Of-The-Artist-With-A-Lamp.jpg?ts=1459229076);
+    
+  
+
+}
+.infotext{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.slidecontainer img{
+    width: 50em;
+    height: 40em;
+    
+    
+}
+
+.slidecontainer{
+    display: flex;
+    margin-left: 25em;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+
+.slide1,.slide2,.slide3{
+    margin-top: 5em;
+}
+.slide2 img{
+    justify-content: end;
+}
+p {
+   
+    padding: 2em;
+    width: 100%;
+    
+}
+
+.pics_container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+.box img {
+    width: 60vh;
+    height: 60vh;
+    border: solid;
+    margin-bottom: 2.5em;
+    
+
+}
+
+.box {
+    position: relative;
+}
+
+
+.box:hover {
+    opacity: 0.3;
+}
+
+.box:hover .click{
+    opacity: 1;
+}
+
+
+.click {
+    transition: .5s ease;
+    opacity: 0;
+    background-color: #4f87c0;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    
+    
+ 
+
+}
+
+.text {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+    padding: 0;
+    font-size: 1em;
+
+
+}
+
+/*Contact*/
+.contact_form-container{
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40em;
+  
+  justify-content: center;
+  display: flex;
+}
+
+
+input{
+    width: 56em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+
+}
+.message_input{
+    height: 10em;
+}
+.requestandcontact{
+    display: flex;
+   
+    background-color: #f2f2f2;
+}
+.contact_form-container{
+   
+}
+.col-md-4{
+    
+    width: 20em;
+    height: 3em;
+    padding: 1em;
+    margin-left: 15em;
+    margin-top: 2em;
+}
